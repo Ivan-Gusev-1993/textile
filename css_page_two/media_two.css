@@ -1,0 +1,407 @@
+/* Extra extra large */
+@media screen and (max-width: 1400px) {
+	.mobile-wrap {
+		display: none;
+	}
+
+	.payment__map-frame {
+		min-width: 566px;
+	}
+
+	.content-wrapper {
+		flex-direction: column;
+	}
+
+	.configuration {
+		max-width: 1170px;
+		margin-right: 0px;
+	}
+
+	.catalog__filter {
+		margin-right: 20px;
+	}
+
+	.sidebar__item {
+		display: flex;
+		gap: 10px;
+		max-width: 1170px;
+	}
+
+	.sidebar__item-link {
+		padding: 17px 0px 0px 20px;
+		width: 158px;
+		display: block;
+	}
+
+	.sidebar__text {
+		line-height: 0px;
+	}
+
+	.page-navigation {
+		justify-content: space-around;
+	}
+}
+
+/* Extra large */
+@media screen and (max-width: 1200px) {
+	.select-list {
+		margin-right: 10px;
+	}
+
+	.logo__img {
+		margin-right: 8px;
+	}
+
+	.head-vector {
+		margin-right: 3px;
+	}
+
+	.search {
+		margin-right: 10px;
+	}
+
+	.box {
+		margin-right: 10px;
+	}
+
+	.mobile-wrap {
+		display: none;
+	}
+
+	.navigation {
+		display: flex;
+		gap: 20px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%;
+		margin-bottom: 34px;
+	}
+
+	.page {
+		padding-left: 20px;
+	}
+
+	.configuration {
+		margin: 0 auto;
+		max-width: 910px;
+	}
+
+	.sidebar__item {
+		flex-wrap: wrap;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.sidebar__title {
+		margin-left: 20px;
+	}
+
+	.catalog__filter {
+		margin-right: 150px;
+	}
+
+
+	.catalog__cloth {
+		justify-content: center;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.page-navigation__list {
+		gap: 5px;
+		margin-left: 50px;
+	}
+
+	.footer__background {
+		width: 100%;
+		height: 100%;
+	}
+
+	.banner {
+		flex-direction: column;
+		left: 15px;
+		right: 15px;
+	}
+
+	.banner__subscription {
+		padding: 10px;
+		padding-left: 50px;
+	}
+
+	.form {
+		padding: 10px;
+	}
+
+	.banner__input-submit {
+		padding: 7px 10px 7px 10px;
+		width: 135px;
+	}
+
+	.about-us {
+		flex-wrap: wrap-reverse;
+		padding-left: 0px;
+	}
+
+	.contacts,
+	.payment {
+		margin-top: 10px;
+		height: 380px;
+	}
+
+	.contacts {
+		padding-top: 0px;
+	}
+
+	.about-store {
+		margin-bottom: 10px;
+	}
+
+	.contacts__time-works {
+		margin-bottom: 68px;
+	}
+
+	.payment__mastercard-icon {
+		margin-bottom: 152px;
+	}
+
+	.payment__visa-icon,
+	.payment__paypal-icon,
+	.payment__mastercard-icon {
+		padding-left: 44px;
+	}
+}
+
+/* large */
+@media screen and (max-width: 992px) {
+	.box {
+		display: none;
+	}
+
+	.select-list,
+	.head-vector {
+		display: none;
+	}
+
+	.mobile-wrap {
+		display: none;
+	}
+
+	.logo__img {
+		margin-right: 30px;
+	}
+
+	.navigation {
+		display: flex;
+		gap: 10px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%;
+		margin-bottom: 34px;
+	}
+
+	.configuration {
+		margin: 0 auto;
+		max-width: 910px;
+	}
+
+	.page-navigation-form {
+		display: none;
+	}
+
+	.page-navigation__list {
+		gap: 5px;
+		margin-left: 0px;
+	}
+
+	.banner__input-submit {
+		padding: 7px 10px 7px 10px;
+		width: 135px;
+	}
+}
+
+@media screen and (max-width: 889px) {
+	.configuration {
+		margin: 0 auto;
+		max-width: 608px;
+	}
+}
+
+/* Medium */
+@media screen and (max-width: 768px) {
+	.info-wrapper {
+		display: none;
+	}
+
+	.menu-wrap {
+		display: none;
+	}
+
+	.mobile-wrap {
+		display: block;
+	}
+
+	.configuration {
+		max-width: 613px;
+		margin: 0 auto;
+	}
+
+	.catalog__filter {
+		text-align: center;
+	}
+
+	.catalog__filter {
+		margin-right: 20px;
+	}
+
+	.form {
+		flex-direction: column;
+		padding-left: 42px;
+	}
+
+	.page-navigation {
+		justify-content: space-around;
+	}
+
+	.banner__input-text {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	.banner__input-submit {
+		padding: 7px 10px 7px 10px;
+		width: 135px;
+	}
+
+	.arrow-for-submit {
+		display: none;
+	}
+
+	.contacts {
+		padding-left: 10px;
+		padding-right: 20px;
+	}
+
+	.payment {
+		border-left: 0px;
+		padding-left: 0px;
+	}
+
+	.payment__map-frame {
+		min-width: 566px;
+	}
+}
+
+/* Small */
+@media screen and (max-width: 576px) {
+	.mobile-wrap {
+		display: block;
+	}
+
+	.banner {
+		top: -200px;
+	}
+
+	.configuration {
+		margin: 0 auto;
+		max-width: 375px;
+	}
+
+	.sidebar {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.sidebar__item {
+		justify-content: space-between;
+		gap: 0px;
+	}
+
+	.sidebar__title {
+		margin-left: 20px;
+		margin-bottom: 21px;
+		font-size: 35px;
+	}
+
+.page-navigation__list-item-3,
+.page-navigation__list-item-4,
+.page-navigation__list-item-11 {
+	display: none;
+}
+
+.page-navigation__list {
+	gap: 5px;
+}
+
+	.div-form {
+		min-width: 350px;
+	}
+
+	.banner__input-submit {
+		padding: 7px 10px 7px 10px;
+		width: 135px;
+	}
+
+	.banner__subscription {
+		margin: 0 auto;
+		padding-left: 40px;
+		font-size: 30px;
+	}
+
+	.banner__sale-text {
+		padding-left: 40px;
+	}
+
+	.banner__input-text {
+		width: 270px;
+		margin-bottom: 8px;
+		padding-right: 50px;
+		margin-right: 117px;
+	}
+
+	.banner__small-text {
+		padding-left: 20px;
+	}
+
+	.contacts {
+		width: 182px;
+		margin-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.contacts__title {
+		padding-top: 10px;
+	}
+
+	.about-store {
+		margin-bottom: 10px;
+	}
+
+	.payment {
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+
+	.payment__title {
+		padding-top: 10px;
+	}
+
+	.payment__visa-icon,
+	.payment__paypal-icon,
+	.payment__mastercard-icon {
+		padding-left: 44px;
+	}
+
+	.payment__mastercard-icon {
+		margin-bottom: 136px;
+	}
+
+	.payment__map-frame {
+		min-width: 365px;
+	}
+}
